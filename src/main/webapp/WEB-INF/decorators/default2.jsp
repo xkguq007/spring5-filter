@@ -4,9 +4,12 @@
         <sitemesh:write property="head"/>
     </head>
     <body>
-        <h1>Decorated by custom ConfigurableSiteMeshFilter</h1>
-        Decorated-2 before
+        <header>
+            <h3>Decorated by custom ConfigurableSiteMeshFilter</h3>
+        </header>
         <sitemesh:write property="body" />
-        Decorated=2 after
+        <footer style="margin-top: 50px">
+            <br>Decorated custom after
+        </footer>
     </body>
 </html>

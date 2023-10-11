@@ -4,9 +4,12 @@
         <sitemesh:write property="head"/>
     </head>
     <body>
-        <h1>Decorated by Default SiteMesh @WebFilter</h1>
-        Decorated before
+        <header>
+            <h3>Decorated by Default SiteMesh @WebFilter</h3>
+        </header>
         <sitemesh:write property="body" />
-        Decorated after
+        <footer style="margin-top: 50px">
+            Decorated after
+        </footer>
     </body>
 </html>

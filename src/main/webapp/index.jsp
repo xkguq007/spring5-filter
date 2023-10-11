@@ -1,10 +1,11 @@
 <html>
   <head>
     <title>Hello World</title>
-<%--    <meta name="decorator" content="default2.jsp" />--%>
   </head>
   <body>
     <h1>Hello</h1>
-    <div>World!</div>
+    <div>
+      World! <br /> See <a href="/example.jsp">Example using Meta Tag</a>
+    </div>
   </body>
 </html>
