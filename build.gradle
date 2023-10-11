@@ -1,0 +1,25 @@
+plugins {
+    id 'war'
+    id "org.gretty" version "4.1.0"
+}
+gretty {
+    contextPath = '/'
+}
+
+defaultTasks 'tomcatRun'
+
+description = 'Hello World Web-app'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    // https://docs.oracle.com/javaee/6/javaserverfaces/2.0/docs/pdldocs/facelets/c/tld-summary.html
+    implementation 'org.sitemesh:sitemesh:3.2.0-M2'
+    implementation 'jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:3.0.0'
+    implementation 'jakarta.servlet:jakarta.servlet-api:6.0.0'
+    implementation 'org.springframework:spring-web:6.0.12'
+    implementation 'org.springframework:spring-webmvc:6.0.12'
+}
