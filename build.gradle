@@ -17,9 +17,8 @@ repositories {
 
 dependencies {
     // https://docs.oracle.com/javaee/6/javaserverfaces/2.0/docs/pdldocs/facelets/c/tld-summary.html
-    implementation 'org.sitemesh:sitemesh:3.2.0-SNAPSHOT'
-    implementation 'jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:3.0.0'
-    implementation 'jakarta.servlet:jakarta.servlet-api:6.0.0'
-    implementation 'org.springframework:spring-web:6.0.12'
-    implementation 'org.springframework:spring-webmvc:6.0.12'
+    implementation 'org.sitemesh:sitemesh:3.1.0'
+    implementation 'javax.servlet:javax.servlet-api:4.0.1'
+    implementation 'org.springframework:spring-web:5.3.32'
+    implementation 'org.springframework:spring-webmvc:5.3.32'
 }
